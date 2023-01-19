@@ -11,6 +11,7 @@ class EventKind(IntEnum):
     CONTACTS = 3
     ENCRYPTED_DIRECT_MESSAGE = 4
     DELETE = 5
+    BOOST = 6
     REACTION = 7
 
 class Event():
